@@ -5,7 +5,7 @@ const uri = 'mongodb+srv://testFuria:testFuria@furia.ht8wkpp.mongodb.net/?retryW
 
 const client = new MongoClient(uri);
 
-const bearerToken = 'AAAAAAAAAAAAAAAAAAAAAFZT0wEAAAAAAZcDhovW2cVs3mGnnpLAqa7eMAE%3DxB2Ltk2hNjre1XhhEmjMbH1oO4DjrwAiUsYyZ2Dtg5QOf4spOW';
+const bearerToken = 'AAAAAAAAAAAAAAAAAAAAAFZT0wEAAAAA3fKHvcRzoLY6cH4oK4yk31wnsIk%3D4cmEViktbKszrX40sSid5R99q5ZI80BdbuhCqhFsmnzNS1YcUD';
 const query = '@furia'
 const url = `https://api.twitter.com/2/tweets/search/recent?query=${encodeURIComponent(query)}&max_results=3&tweet.fields=created_at,text,author_id`;
 
